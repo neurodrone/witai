@@ -1,4 +1,4 @@
-# wit.ai
+# wit.ai [![GoDoc](https://godoc.org/github.com/neurodrone/witai?status.svg)](https://godoc.org/github.com/neurodrone/witai) [![](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/neurodrone/witai/blob/master/LICENSE)
 
 Go library for `wit.ai` Natural Language Processing API. This library
 integrates with `libwit` locally and can perform both blocking and
