@@ -1,22 +1,3 @@
-# wit.ai
-
-Go library for `wit.ai` Natural Language Processing API. This library
-integrates with `libwit` locally and can perform both blocking and
-non-blocking voice queries using `wit.ai` service.
-
-## Dependencies
-
-In order to start using this library you will need an account on https://wit.ai/. Make sure you complete the [Quick Start](https://wit.ai/docs/console/quickstart) guide to get yourself all set up.
-
-Other dependencies:
-
- * Latest `libwit` (can be downloaded from [wit.ai Releases](https://github.com/wit-ai/libwit/releases)).
- * `libsox` (`brew install sox` on OSX).
- * `libcurl` (`brew install curl` on OSX).
-
-## Usage
-
-```go
 package main
 
 import (
@@ -70,12 +51,3 @@ func main() {
 	// Wait exiting the process until the async result returns.
 	<-done
 }
-```
-
-## Installation
-
-As simple as:
-
-```
-go get github.com/neurodrone/witai
-```
